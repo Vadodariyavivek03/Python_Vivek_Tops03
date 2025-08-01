@@ -1,0 +1,8 @@
+# Concatenate two strings
+
+a = "Hello"
+b = "World!"
+
+c = a + " " + b
+
+print(c)
