@@ -1,11 +1,46 @@
-State = ()
+obj = ('apple', 'banana', 'cherry', 'mango', 'orange', 'grape', 'kiwi', 'watermelon', 'peach', 'pomegranate')
 
-n = int(input("Enter number of states: "))
+print(obj)
 
-for i in range(n):
-    x = input(f"Enter state name {i+1}: ")
-    State += (x,) 
+print(type(obj))
 
-print(State)
+print(obj[0])
 
-# print(tuple(State)) 
+print(obj[2:9])
+
+print(obj[:4])
+
+print(obj[1:7:2])
+
+print(obj[-1])
+
+print(len(obj))
+
+#---------------------------------------#
+
+for i in obj:
+    print(i)
+
+#---------------------------------------#
+
+if 'pear' in obj:
+    print("Yes........")
+else:
+    print("No.........")
+
+#---------------------------------------#
+
+print(obj.index("watermelon"))
+
+#---------------------------------------#
+
+del obj
+
+#---------------------------------------#
+
+tuple1 = (1, 2, 6, 8, 4)
+tuple2 = (3, 5, 7, 10, 14)
+
+x = tuple1 + tuple2
+
+print(x)
