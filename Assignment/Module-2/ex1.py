@@ -1,4 +1,6 @@
-obj = ['apple', 'banana', 'cherry', 'mango', 'orange', 'grape', 'kiwi']
+# List ---> Ordered, mutable(Changeable), allow duplicate values, [] bracket.
+
+obj = ['apple', 'banana', 'cherry', 'mango', 'orange', 'grape', 'kiwi', 'mango']
 
 print(obj)
 print(type(obj))
@@ -7,7 +9,7 @@ print(obj[-1])                  # Last element
 print(obj[1:4])                 # Elements from index 1 to 3
 print(obj[2:])                  # Elements from index 2 to the end
 print(obj[:3])                  # First three elements
-print(obj[0], obj[1], obj[2], obj[3], obj[4], obj[5], sep="\n")      # Print each element on a new line
+# print(obj[0], obj[1], obj[2], obj[3], obj[4], obj[5], sep="\n")      # Print each element on a new line
 print(obj[0:6:2])               # Every second element from the index 0 to 5
 
 #---------------------------------------#

@@ -1,8 +1,25 @@
-keys = ['id','name','subject']
-data = {}
+items = {'apple', 'banana', 'cherry', 'mango', 'orange', 'grape', 'kiwi', 'c'}
 
-for i in keys:
-    value =input(f"Enter value for {i} : ")
-    data[i] = value
+print(items)
+print(type(items))
 
-print("Data : ",data)
+# --------------------------------------- #
+
+new_set = {'a','b','c','d','e'}
+print(new_set)
+
+# --------------------------------------- #
+
+x = items.union(new_set)
+print(x)
+
+# --------------------------------------- #
+
+x = items.intersection(new_set)
+print(x)
+
+# --------------------------------------- #
+
+x = items.difference(new_set)
+print(x)
+

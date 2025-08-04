@@ -1,10 +1,9 @@
-data = {}
+State = set()
 
-n = int(input("Enter how many number of pair you want to add : "))
+n = int(input("Enter number of states: "))
 
 for i in range(n):
-    key = input(f"Enter key {i+1} : ")
-    value =input(f"Enter value for {key} : ")
-    data[key] = value
+    x = input(f"Enter state name {i+1}: ")
+    State.add(x)
 
-print("Data : ",data)
+print(State)

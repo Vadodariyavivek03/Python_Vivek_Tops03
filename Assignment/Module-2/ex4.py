@@ -1,3 +1,5 @@
+# Tuple --> ordered, unmutable(unchangeble), allow duplicate values, () round bracket.
+
 obj = ('apple', 'banana', 'cherry', 'mango', 'orange', 'grape', 'kiwi', 'watermelon', 'peach', 'pomegranate')
 
 print(obj)

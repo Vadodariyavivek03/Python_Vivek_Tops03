@@ -1,9 +1,57 @@
-State = set()
+# Set ---> unordered, unindexed, no duplicate values, {} curly bracket.
 
-n = int(input("Enter number of states: "))
+items = {'apple', 'banana', 'cherry', 'mango', 'orange', 'grape', 'kiwi'}
 
-for i in range(n):
-    x = input(f"Enter state name {i+1}: ")
-    State.add(x)
+print(items)
+print(type(items))
 
-print(State)
+print(len(items))
+
+# --------------------------------------- #
+
+for i in items:
+    print(i)
+
+# --------------------------------------- #
+
+if 'kiwi' in items:
+    print("Yes.....")
+else:
+    print("No.....")
+
+# --------------------------------------- #
+
+items.add('pear')
+print(items)
+
+# --------------------------------------- #
+
+items.update(['watermelon', 'blueberry', 'peach', 'pomogranate'])   # add multiple values or another set.
+print(items)
+
+# --------------------------------------- #
+
+items.remove('kiwi')
+print(items)
+
+# --------------------------------------- #
+
+items.pop()
+print(items)
+
+# --------------------------------------- #
+
+'''items.pop(2)                 This line give error because set is unindexed. so, that is not possible.
+print(items)'''
+
+# --------------------------------------- #
+
+items.clear()
+print(items)
+
+# --------------------------------------- #
+
+del items
+
+
+
