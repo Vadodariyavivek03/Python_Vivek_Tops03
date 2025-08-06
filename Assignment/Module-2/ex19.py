@@ -18,7 +18,7 @@ count = 1
 for n1, n2 in info:
     print(f"\nStudent {count}:")
     stinfo(n1,n2)
-    print("-------------------")
+    print("----------------------")
     count += 1
     
 
