@@ -20,5 +20,8 @@ for n1, n2 in info:
     stinfo(n1,n2)
     print("----------------------")
     count += 1
+
+
+
     
 
