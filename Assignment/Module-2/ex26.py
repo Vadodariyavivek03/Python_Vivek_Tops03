@@ -6,9 +6,15 @@ balance = 0.0
 def acc_open():
     global acc_holder, acc_type, acc_number, balance
 
-    acc_holder = input("\nEnter account holder name : ")
+    new_acc_number = input("\nEnter your account number : ")
+    
+    if new_acc_number == acc_number:
+        print("\nError!! Account number already exists.. Try again....!!\n")
+        return
+
+    acc_holder = input("Enter account holder name : ")
     acc_type = input("Enter your account type : ")
-    acc_number = input("Enter your account number : ")
+    acc_number = new_acc_number
     balance = 0.0
 
     print("\nAccount Created Successfully!!\n")
@@ -36,6 +42,7 @@ def cash_withdrwal():
         print(f"\n{amount} Rs. Cash Withdrawal Successfully !!\n")
     else:
         print("\nError!! Insufficient Balance....\n")
+
 
 def acc_statement():
     global acc_holder, acc_type, acc_number, balance
@@ -71,6 +78,8 @@ while True:
         break
     else:
         print("Error!! Invalid Choice, Please! Try Again....")
+
+
 
 
 
