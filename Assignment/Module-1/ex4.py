@@ -22,4 +22,5 @@ if a >= 40 and b >= 40 and c >= 40 and d >= 40:
         print("Grade D")
         
 else:
-    print("Fail!")
+    print("Fail...!!")
+    
