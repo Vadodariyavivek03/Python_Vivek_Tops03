@@ -1,7 +1,12 @@
-x = open("Module-3/demo.txt", "w")
+x = open("Data_File.txt", "w")
 
-x.write("Hello Python!!\n")
+# ----------------------------------------------------- #
 
-x.write("Welcome to file handling.")
+n = int(input("Enter Number : "))
 
-x.close()
+for i in range(1, 11):
+    x.write(f" {n} * {i} = {n*i} \n")
+
+# ----------------------------------------------------- #
+
+print("Data Written Sucessfully....!!")

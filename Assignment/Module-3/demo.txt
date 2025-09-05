@@ -1,2 +1,2 @@
-Hello Python!!
-Welcome to file handling.
+Hello, Welcome to python short term career course in Tops Technology Rajkot.
+We are learning file handling in python.
