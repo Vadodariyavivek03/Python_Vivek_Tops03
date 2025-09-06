@@ -10,5 +10,6 @@ x = open("Demo.txt", "r")
 
 # print(x.readlines()[1])
 
+
 for i in x:
     print(i)
