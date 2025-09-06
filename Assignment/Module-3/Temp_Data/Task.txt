@@ -1,0 +1,30 @@
+Timestemp : 2025-09-06 17:43:38.484510
+ID : 3769
+Student Name : vivek
+Subject Name : python
+City Name : rajkot
+-------------------------------
+Timestemp : 2025-09-06 17:44:01.129912
+ID : 2261
+Student Name : meet
+Subject Name : java
+City Name : surat
+-------------------------------
+Timestemp : 2025-09-06 17:44:11.520683
+ID : 2851
+Student Name : kishan
+Subject Name : c++
+City Name : baroda
+-------------------------------
+Timestemp : 2025-09-06 17:44:30.905791
+ID : 7087
+Student Name : Aansh
+Subject Name : Flutter
+City Name : Rajkot
+-------------------------------
+Timestemp : 2025-09-06 17:44:51.332874
+ID : 5212
+Student Name : Kashyap
+Subject Name : .Net
+City Name : Ahemdabad
+-------------------------------
