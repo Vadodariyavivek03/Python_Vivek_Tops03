@@ -1,6 +1,4 @@
-import os
-import datetime as dt
-import random
+import os , random , datetime as dt
 
 os.chdir("Temp_Data")
 
@@ -12,7 +10,7 @@ for i in range(n):
     stu_name = input("Enter Student Name : ")
     stu_sub = input("Enter Subject Name : ")
     stu_city = input("Enter City Name : ")
-    print("\n----------------------")
+    print("----------------------")
 
     x.write(f"Timestemp : {dt.datetime.now()}\n")
     x.write(f"ID : {random.randint(1000,9999)}\n")

@@ -9,6 +9,8 @@ except Exception as e:
 
 else:
     # print("This is Else Block....!!")
+    a = 2
+    b = 2
     print("Mul : ", a * b)
 
 
