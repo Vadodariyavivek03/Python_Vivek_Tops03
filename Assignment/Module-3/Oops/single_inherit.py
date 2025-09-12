@@ -14,5 +14,4 @@ class result(stud_info):
                                
 rs = result()
 rs.get_data()
-
 rs.print_data()
