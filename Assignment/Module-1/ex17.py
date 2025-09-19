@@ -8,6 +8,8 @@ print(mystr[0:5])
 
 print(mystr[2:12:2])      # Slicing with step
 
+print(mystr[::-1])
+
 print(len(mystr))
 
 print(mystr.count("e"))

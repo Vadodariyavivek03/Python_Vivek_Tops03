@@ -2,7 +2,7 @@ a = 5
 b = 12
 
 try:
-    print("Sum : ", a + b)
+    print("Sum : ", A + b)
 except:
     print("Some Error Occured....!!")
 

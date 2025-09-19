@@ -8,3 +8,12 @@ def val():
     print("X :",x)
 
 val()
+
+# print("Sum ::",a+b)
+
+# def val():
+#     a = 20
+#     b = 10
+#     print("Mul ::",a*b)
+
+# val

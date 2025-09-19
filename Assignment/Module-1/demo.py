@@ -9,11 +9,11 @@ print ('''Hello Python!
 
 print('Hello \nPython!')
 
-print("\tHello Pyhton!!!!")
+print("\tHello \'Python!!!!")
 
-print("Hello\b Pyh\bton!!!!") 
+print("Hello\b Pyt\bhon!!!!") 
 
-print(r"Hello\b Pyh\bton!!!!")  # rawstring -- r --> using for print output same as write on program. 
+print(r"Hello\b Pyt\bhon!!!!")  # rawstring -- r --> using for print output same as write on program. 
 
 print("My name is 'vivek' vadodariya")
 
