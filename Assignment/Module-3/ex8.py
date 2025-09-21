@@ -2,7 +2,7 @@ import re
 
 my_str = input("Enter String :: ")
 
-x = re.search("Python", my_str)
+x = re.match("Python", my_str) # beginning string
 print(x)
 
 if x:
