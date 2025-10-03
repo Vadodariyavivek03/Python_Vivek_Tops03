@@ -22,4 +22,4 @@ for i in range(n):
 
 # ----------------------------------------------------- #
 
-print("Data Written Sucessfully....!!")
+print("Data Written Sucessfully....!!") 

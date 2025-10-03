@@ -11,7 +11,7 @@ print(mystr[2:12:2])      # Slicing with step
 print(mystr[::-1])
 
 print(len(mystr))
-
+ 
 print(mystr.count("e"))
 
 print(mystr.strip())      # Remove whitespace from start and end.

@@ -1,0 +1,24 @@
+SQL Commands :
+
+1. DDL :: create, alter, drop, truncate
+2. DML :: insert, update, delete
+3. DQL :: select
+
+-----------------------------------------
+
+4. DCL :: grant, revoke
+5. TCL :: commit, rollback, savepoint
+
+
+CREATE TABLE student(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, city TEXT);
+
+INSERT INTO student(name, city)VALUES
+('Vivek', 'Rajkot'),
+('Meet', 'Surat'),
+('Kashyap', 'Baroda'),
+('Kishan', 'Ahemdabad'),
+('Raj', 'Morbi');
+
+UPDATE student SET city = 'Rajkot' WHERE id = 5;
+
+DELETE FROM student where id = 6;
