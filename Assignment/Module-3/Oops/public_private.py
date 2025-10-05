@@ -2,7 +2,7 @@ class stud_info:
     # public
     # stu_id = 101
     # stu_name = "Vivek"
-
+    
     # private
     __stu_id = 101
     __stu_name = "Vivek"
