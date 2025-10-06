@@ -2,12 +2,12 @@ import tkinter
 import pymysql
 
 try:
-    db = pymysql.connect(host='localhost',user='root',password='',database='task_data')
+    data = pymysql.connect(host='localhost',user='root',password='',database='task_data')
     print("Database Connected Successfully...!")
 except Exception as e:
     print(e)
 
-cr = db.cursor()
+cr = data.cursor()
 
 # Create Table
 tbl_create = "create table stud__info(id integer primary key auto_increment, name varchar(50), city varchar(50))"
@@ -37,12 +37,14 @@ def submit():
     tk_name = name.get()
     tk_city = city.get()
 
+    # cr = data.cursor()
+
     # Insert Data
     insert_data = f"insert into stud__info(name, city) values('{tk_name}', '{tk_city}')"
 
     try:
         cr.execute(insert_data)
-        db.commit()
+        data.commit()
         print("Data Inserted Successfully...!")
     except Exception as e:
         print(e)
